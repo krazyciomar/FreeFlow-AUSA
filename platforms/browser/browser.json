@@ -1,0 +1,48 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "ar.com.ittel.freeflow"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "ar.com.ittel.freeflow"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "ar.com.ittel.freeflow"
+        },
+        "cordova-plugin-googlemaps": {
+            "PACKAGE_NAME": "ar.com.ittel.freeflow"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+            "id": "cordova-plugin-statusbar.statusbar",
+            "pluginId": "cordova-plugin-statusbar",
+            "clobbers": [
+                "window.StatusBar"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-googlemaps/www/googlemaps-cdv-plugin.js",
+            "id": "cordova-plugin-googlemaps.cordova-plugin-googlemaps",
+            "pluginId": "cordova-plugin-googlemaps",
+            "clobbers": [
+                "cordova-plugin-googlemaps"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-whitelist": "1.2.2",
+        "cordova-plugin-statusbar": "1.0.1",
+        "cordova-plugin-console": "1.0.5",
+        "cordova-plugin-googlemaps": "1.4.0"
+    }
+}
